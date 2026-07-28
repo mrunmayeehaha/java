@@ -1,0 +1,13 @@
+import java.util.*;
+
+class Count {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter String: ");
+        String str = sc.nextLine();
+
+        System.out.println("Count Of Characters: " + str.length());
+    }
+}
